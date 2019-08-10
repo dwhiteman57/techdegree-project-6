@@ -8,7 +8,7 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-app.get('/', (req, res) => res.send('<h1>This is my home page</h1>'))
+app.get('/', (req, res) => res.send('<h1>This is my home page fool</h1>'))
 
 app.get('/index', (req, res) => res.send('This is my index page'))
 
