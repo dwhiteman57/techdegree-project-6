@@ -1,88 +1,44 @@
 {"projects":
   [
-    {"id":"0" ,
+    {"id": 0,
       "project_name": "Random Quote Generator",
       "description": "A program that displays a randomly selected quote each time the user clicks a button",
-      "technologies": [
-        "html",
-        "css",
-        "JavaScript"
-      ],
+      "technologies": ["html", "css","JavaScript"],
       "live_link": "link",
       "github_link": "https://github.com/dwhiteman57/techdegree-project-1",
-      "image_urls": [
-        "/static/img/u1_550x550.jpg",
-        "/static/img/u1_1200x550.jpg"
-      ],
+      "image_urls": ["/static/img/u1_550x550.jpg", "/static/img/u1_1200x550.jpg"]
     },
-    {"id":"1" ,
+    {"id": 1,
       "project_name": "List Pagination And Filtering",
       "description": "Divides a long student list into a series of pages",
-      "technologies": [
-        "html",
-        "css",
-        "JavaScript"
-      ],
+      "technologies": ["html", "css", "JavaScript"],
       "live_link": "link",
       "github_link": "https://github.com/dwhiteman57/techdegree-project-2",
-      "image_urls": [
-        "/static/img/u2_550x550.jpg",
-        "/static/img/u2_1200x550.jpg"
-      ],
+      "image_urls": ["/static/img/u2_550x550.jpg", "/static/img/u2_1200x550.jpg"]
     },
-    {"id":"2" ,
+    {"id": 2,
       "project_name": "Interactive Form",
       "description": "Create a registration form including helper tools and field validators",
-      "technologies": [
-        "html",
-        "css",
-        "JavaScript",
-        "jQuery",
-        "RegularExpressions"
-      ],
+      "technologies": ["html", "css", "JavaScript", "jQuery", "RegularExpressions"],
       "live_link": "link",
       "github_link": "https://github.com/dwhiteman57/techdegree-project-3",
-      "image_urls": [
-        "/static/img/u3_550x550.jpg",
-        "/static/img/u3_1200x550_1.jpg",
-        "/static/img/u3_1200x550_2.jpg"
-      ],
+      "image_urls": ["/static/img/u3_550x550.jpg", "/static/img/u3_1200x550_1.jpg", "/static/img/u3_1200x550_2.jpg"]
     },
-    {"id":"3" ,
+    {"id": 3,
       "project_name": "Game Show App",
       "description": "Create a browser-based word guessing game: Phrase Hunter",
-      "technologies": [
-        "html",
-        "css",
-        "JavaScript",
-        "Object Oriented Programming"
-      ],
+      "technologies": ["html", "css", "JavaScript", "Object Oriented Programming"],
       "live_link": "link",
       "github_link": "https://github.com/dwhiteman57/techdegree-project-4",
-      "image_urls": [
-        "/static/img/u4_550x550.jpg",
-        "/static/img/u4_1200x550_1.jpg",
-        "/static/img/u4_1200x550_2.jpg",
-        "/static/img/u4_1200x550_3.jpg"
-      ],
+      "image_urls": ["/static/img/u4_550x550.jpg", "/static/img/u4_1200x550_1.jpg", "/static/img/u4_1200x550_2.jpg", "/static/img/u4_1200x550_3.jpg"]
     },
     {"id":"4" ,
       "project_name": "Public API Requests",
       "description": "Create an employee directory by communicating with a third-party API",
-      "technologies": [
-        "html",
-        "css",
-        "JavaScript",
-        "AJAX",
-        "read me"
-      ],
+      "technologies": ["html", "css", "JavaScript", "AJAX", "read me"],
       "live_link": "link",
       "github_link": "https://github.com/dwhiteman57/techdegree-project-5",
-      "image_urls": [
-        "/static/img/u5_550x550.jpg",
-        "/static/img/u5_1200x550.jpg"
-      ],
-    },
-
+      "image_urls": ["/static/img/u5_550x550.jpg", "/static/img/u5_1200x550.jpg"]
+    }
   ]
 }
