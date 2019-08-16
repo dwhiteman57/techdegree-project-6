@@ -1,8 +1,12 @@
-/* command to run nodemon in terminal
+/*
+
+command to run nodemon in terminal:
    npm run dev-start
 
-Additional Resources Used: 'Learning Node.js Development'by Andrew Mead,
+Additional Resources Used:
+'Learning Node.js Development'by Andrew Mead
 'Express In Action' by Evan Hahn
+
 */
 
 
