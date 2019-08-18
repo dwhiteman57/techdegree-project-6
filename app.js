@@ -27,6 +27,7 @@ const port = 3000;
 
 
 
+
 //Home Page
 app.get('/', (req, res) => {
   res.render('index', {projects: projects});
@@ -42,8 +43,13 @@ app.get('/about', (req, res) => {
 //Dynamic Projects Route
 app.get('/projects/:id', (req, res) => {
   const id = req.params.id
+  const idInt = parseInt(req.params.id);
   const project = projects[id];
-  res.render('project', {project});
+  if (Number.isInteger && idInt <= projects.length) {
+    return res.render('project', {project});
+  } else {
+    res.redirect('/');
+  }
 });
 
 
@@ -51,15 +57,20 @@ app.get('/projects/:id', (req, res) => {
 
 
 //Error Handlers
-// 404
 app.use((req, res, next) => {
-  return res.status(404).send({ message: 'Route'+req.url+' Not found.' });
-});
+  const err = new Error('This page does not exist.');
+  err.status = 404;
+  next(err);
+})
 
-// 500 - Any server error
+
 app.use((err, req, res, next) => {
-  return res.status(500).send({ error: err });
-});
+  res.locals.error = err;
+  res.status(err.status);
+  res.render('error');
+  console.log({ message: 'Route'+req.url+' Not found.' });
+})
+
 
 
 
