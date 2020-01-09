@@ -44,7 +44,7 @@
       "project_name": "React Gallery App",
       "description": "Using React library, create an image gallery app that fetches data from the Flickr API",
       "technologies": ["HTML", "CSS", "JavaScript", "API", "React", "Create React App with Hooks", "JSX"],
-      "live_link": "https://dwhiteman57.github.io/techdegree-project-7/",
+      "live_link": "https://mystifying-davinci-dbdb81.netlify.com",
       "github_link": "https://github.com/dwhiteman57/techdegree-project-7",
       "image_urls": ["/static/img/u6_550x550.jpg", "/static/img/u6_1200x550_1.jpg", "/static/img/u6_1200x550_2.jpg"]
     },
@@ -55,6 +55,14 @@
       "live_link": "https://dwhiteman57.github.io/techdegree-project-8/",
       "github_link": "https://github.com/dwhiteman57/techdegree-project-8",
       "image_urls": ["/static/img/u7_550x550.jpg", "/static/img/u7_1200x550_1.jpg", "/static/img/u7_1200x550_2.jpg", "/static/img/u7_1200x550_3.jpg"]
+    },
+    {"id": 7,
+      "project_name": "REST API",
+      "description": "Create a REST API using Express. The API will provide a way for users to administer a school database containing information about courses. Users can interact with the database by retrieving a list of courses, as well as adding, updating and deleting courses in the database. Use 'Postman' to test all routes.",
+      "technologies": ["JavaScript", "Node.js", "Express", "SQL", "SQL ORM Sequelize", "Postman"],
+      "live_link": "https://github.com/dwhiteman57/techdegree-project-9",
+      "github_link": "https://github.com/dwhiteman57/techdegree-project-9",
+      "image_urls": ["/static/img/u8_550x550.jpg", "/static/img/u8_1200x550_1.jpg", "/static/img/u8_1200x550_2.jpg", "/static/img/u8_1200x550_3.jpg"]
     }
   ]
 }
