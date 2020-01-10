@@ -8,6 +8,9 @@
     "start": "node app.js",
     "dev-start": "nodemon app.js"
   },
+  "engines": {
+    "node": "10.16.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dwhiteman57/techdegree-project-6.git"

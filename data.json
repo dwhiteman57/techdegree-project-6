@@ -52,7 +52,7 @@
       "project_name": "SQL Library Manager",
       "description": "Build an application for a local library to help them manage their collection of books. Include full CRUD functionality to manage database.",
       "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "Express", "PUG", "SQL", "SQL ORM Sequelize"],
-      "live_link": "https://dwhiteman57.github.io/techdegree-project-8/",
+      "live_link": "https://github.com/dwhiteman57/techdegree-project-8",
       "github_link": "https://github.com/dwhiteman57/techdegree-project-8",
       "image_urls": ["/static/img/u7_550x550.jpg", "/static/img/u7_1200x550_1.jpg", "/static/img/u7_1200x550_2.jpg", "/static/img/u7_1200x550_3.jpg"]
     },
