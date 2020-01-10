@@ -22,7 +22,7 @@ const projects = data.projects
 app.set('view engine', 'pug');
 app.use('/static', express.static('public'));
 
-const port = 3000;
+
 
 
 
@@ -76,4 +76,5 @@ app.use((err, req, res, next) => {
 
 
 //Server port
-app.listen(port, () => console.log(`Unit 6 portfolio app listening on port ${port}!`))
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`Server started on ${PORT}`));
